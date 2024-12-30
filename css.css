@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.menu{
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.767);
+    color: white;
+    padding: 7px 0px;
+    position: relative;
+    
+}
+.icons{
+    padding-top: 100px;
+    padding-left: 35px;
+}
+
+.center{
+    width: 90%;
+    background-color:whitesmoke;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 65px;
+}
+
+
+.list i{
+    font-size: 1.4em;
+}
+
+.list p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* single icon */
+
+.single-icon i{
+    font-size: 1.8em;
+    position: absolute;
+    right: 12px;
+}
+
+/* center */
+
+
+
+
+
+
+.boxes{
+    width: 100%;
+    display: flex;
+   padding: 40px 30px;
+   gap: 35px;
+}
+
+/* box1 */
+
+.box1{
+    width: 275px;
+    height: 170px;
+    background-color: rgba(247, 73, 73, 0.61);
+     font-size: 1.8em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;
+     border-bottom: 7px solid gold;
+}
+
+.box1 #bottom{
+    margin-bottom: 20px;
+}
+
+.box1 i{
+    color: rgba(6, 243, 243, 0.87) ;
+}
+.number{
+    font-size: 1.5em;
+}
+
+/* box2 */
+
+.box2{
+    width: 275px;
+    height: 170px;
+    background-color: rgba(12, 235, 124, 0.822);
+     font-size: 1.8em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;
+     border-bottom: 7px solid gold;
+}
+
+.box2 #bottom{
+    margin-bottom: 20px;
+}
+
+.box2 i{
+   color: darkturquoise;
+}
+.number{
+    font-size: 1.5em;
+}
+
+/* box3 */
+
+
+.box3{
+    width: 275px;
+    height: 170px;
+    /* background-color:rgba(128, 128, 128, 0.705); */
+    background-color: lightblue;
+     font-size: 1.8em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;
+     border-bottom: 7px solid gold;
+}
+
+
+
+.box3 i{
+    color: rgba(6, 243, 243, 0.87) ;
+}
+.number{
+    font-size: 1.5em;
+}
+
+#dollar{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
